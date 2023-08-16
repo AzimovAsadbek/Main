@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300;400;500;600;700&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(231, 231, 231, 0.804);
+}
+
+.main {
+    width: 430px;
+    height: fit-content;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 20PX;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.it {
+    margin-top: -13px;
+}
+
+.min {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 15px;
+}
+
+.hw {
+    min-width: 70px;
+    border-radius: 8px;
+    background-color: #695CFE;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 6px;
+}
+
+
+.cl {
+    margin-top: 10px;
+}
+
+.min1 {
+    font-size: 28px;
+}
+
+.min21 {
+    margin-top: -8px;
+}
+
+.tg {
+    width: 45px;
+    border: 1px solid #989898;
+    height: 20px;
+    border-radius: 35px;
+    position: relative;
+    background-color: #989898;
+    top: 885px;
+    left: 370px;
+    z-index: 11;
+}
+
+.tg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    left: 1px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+
+input[id="black"]:checked+label::before {
+    left: 24px;
+}
+
+
+
+
+
+.input {
+    height: 43px;
+    width: 300px;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    background-color: #98989800;
+
+}
+
+
+.search {
+    width: 380px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    background-color: #98989821;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+    margin-left: 17px;
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.fas {
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 25px;
+    margin-left: 17px;
+}
+
+.far {
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.fa-solid {
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dash {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.js i {
+    font-size: 30px;
+}
+
+.dash i {
+    font-size: 30px;
+}
+
+.dash:hover {
+    background-color: rgb(88, 88, 248);
+    transition: all 0.2s;
+}
+
+.dash:hover .board {
+    color: white;
+    transition: all 0.2s;
+}
+
+
+.board {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 17px;
+}
+
+.cs {
+    margin-top: -25px;
+}
+
+.width {
+    background-color: grey;
+    width: 40px;
+    height: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -90px;
+    left: 350px;
+
+}
+
+
+.tugma {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 431px;
+    top: 50px;
+    border-radius: 50%;
+    border: none;
+    z-index: 1;
+    background-color: rgb(80, 80, 245);
+    color: white;
+}
+
+.v1 {
+    display: flex;
+    align-items: center;
+    /* font-size: 20px; */
+}
+
+
+
+
+.glyphicon {
+    color: rgba(0, 0, 0, 0.69);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+.chizu {
+    width: 370px;
+    border: 0.2px solid rgb(82, 82, 82);
+}
+
+.kichik {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 434px;
+    top: 98px;
+    z-index: 1;
+}
+
+.bx-chevron-right {
+    color: white;
+    font-size: 40px;
+
+}
+
+input[id="blank"]:checked~.kichik {
+    left: 137px;
+    transition: all 0.2s;
+}
+
+input[id="blank"]:checked~.main {
+    width: 130px;
+    transition: all 0.2s;
+}
+
+input[id="blank"]:checked~.main .min {
+    gap: 30px;
+    transition: all 0.3s;
+}
+
+input[id="blank"]:checked~.main .search {
+    width: 90px;
+    display: flex;
+    gap: 50px;
+    transition: all 0.3s;
+
+}
+
+input[id="blank"]:checked~.main .search .js i {
+    margin-left: 30px;
+    transition: all 0.3s;
+}
+
+input[id="blank"]:checked~.main .dash i {
+    margin-left: 27px;
+    transition: all 0.2s;
+
+}
+
+input[id="blank"]:checked~.main .dash {
+    display: flex;
+    gap: 70px;
+    transition: all 0.2s;
+
+}
+
+input[id="blank"]:checked~.main .cs .fa-moon {
+    opacity: 0;
+}
+
+input[id="blank"]:checked~.tg {
+    left: 65px;
+    transition: all 0.2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[id="black"]:checked~.main {
+    background-color: black;
+    color: white;
+}
+
+input[id="black"]:checked~.main .content .search i {
+    color: white;
+}
+
+input[id="black"]:checked~.main .content .dash i {
+    color: white;
+}
+
+input[id="black"]:checked~.main .content .dash a {
+    color: white;
+}
+
+input[id="black"]:checked~.main .cs a {
+    color: white;
+}
+
+input[id="black"]:checked~.main .cs i {
+    color: white;
+}
+
+input[id="black"]:checked~.main .dash:hover {
+    background-color: red;
+}

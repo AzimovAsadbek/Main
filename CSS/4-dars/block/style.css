@@ -1,0 +1,59 @@
+
+body{
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.engkatta{
+    border: 2px solid black;
+    width: 720px;
+    height: 630px;
+    margin: 10px;
+}
+.i{
+    text-align: center;
+    margin: 20px;
+}
+.kichik{
+    border: 2px solid black;
+    width: 600px;
+    height: 540px;
+    margin-left: 58px;
+}
+.a1{
+    border: 2px solid black;
+    width: 31%;
+    height: 170px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+
+}
+.b2{
+    text-align: center;
+}
+.b3{
+    text-align: right;
+    
+}
+.b4{
+    vertical-align: middle;
+}
+.b5{
+    text-align: center;
+   
+}
+.b6{
+    text-align: right;
+}
+.a2{
+    padding-top: 85px;
+    height: 80px;
+}
+.a3{
+    padding-top: 140px;
+    height: 29px;
+}

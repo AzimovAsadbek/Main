@@ -1,0 +1,11 @@
+.menu{
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+}
+
+.menu:hover{
+    width: 200px;
+    height: 120px;
+    transition: all 2s, cubic-bezier(0.075, 0.82, 0.165, 1);
+}

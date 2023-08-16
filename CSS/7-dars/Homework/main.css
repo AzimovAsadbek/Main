@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(234, 232, 232);
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+
+.ee {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    margin-top: 13px;
+}
+
+.dis {
+    margin-left: 8px;
+}
+
+.hh {
+    display: flex;
+}
+
+.hh1 {
+    font-size: 18px;
+}
+
+.hh2 {
+    font-size: 15px;
+    color: rgba(88, 88, 88, 0.9);
+    margin-top: -17px;
+}
+
+
+.button {
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: 1px solid green;
+    border-radius: 5px;
+
+}
+
+.item1 {
+    margin-top: -18px;
+    font-size: 13px;
+}
+
+.content {
+    color: rgba(0, 0, 255, 0.668);
+    margin-top: -20px;
+}
+
+.l {
+    font-size: 15px;
+}
+
+.container {
+    background-color: white;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    margin-left: 35px;
+}
+
+tr {
+    margin: 10px;
+}
+
+th {
+    height: 50px;
+    text-align: start;
+}
+
+.u {
+    padding-left: 38px;
+}
+
+.kira {
+    background-color: blue;
+}
+
+.itm{
+    position: sticky;
+    top: 0;
+    background-color:  rgb(234, 232, 232);
+    z-index: 1;
+}
+
+.fx{
+    position: sticky;
+    right: 0;
+    background-color: white;
+}
+.fl{
+    position: sticky;
+    right: 87px;
+    background-color: white;
+
+}
+
+.fw{
+    background-color:  rgb(234, 232, 232);
+}

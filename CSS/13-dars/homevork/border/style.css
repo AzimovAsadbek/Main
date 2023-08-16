@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@100;300&display=swap');
+
+.menyu{
+    width: 700px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 75px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main:hover{
+    width: 300px;
+    transition: all 0.3s;
+}
+
+.icon{
+    width: 75px;
+    height: 70px;
+    color: red;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-trash{
+    position: absolute;
+    top: 10px;
+}
+
+.main:hover .fa-trash{
+    top: -70px;
+    transition: all 0.2s;
+    transition-delay: 0.7s;
+}
+
+
+.icon2{
+    top: 70px;
+    width: 75px;
+    height: 70px;
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;    
+}
+
+.main:hover .icon2{
+    top: 0;
+    transition: all 0.2s;
+    transition-delay: 0.8s;
+}
+
+.h1{
+    top: -70px;
+    position: absolute;
+}
+
+
+
+.text{
+    opacity: 1;
+    width: 225px;
+    height: 70px;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.main:hover .h1{
+    top: 0;
+    transition: all 0.2s;
+    transition-delay: 0.1s;
+}
+
+.main:hover .text{
+    top: -70px;
+    transition: all 0.2s;
+    transition-delay: 0.7s
+}
+
+.text2{
+    opacity: 0;
+    width: 225px;
+    height: 70px;
+    position: absolute;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+
+}
+
+.main:hover .text2{
+    opacity: 1;
+    top: 0;
+    transition: all 0.2s;
+    transition-delay: 0.8s;
+}
+
+.main:hover .text2{
+    animation: text2 0.2s forwards;
+    animation-delay: 1.8s;
+}
+
+.main:hover .icon2{
+    animation: text2 0.2s forwards;
+    animation-delay: 1.8s;
+}
+
+@keyframes text2{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: -70px;
+    }
+
+}
+
+
+.con1{
+    width: 225px;
+    height: 70px;
+    position: absolute;
+    left: 75px;   
+    background-color: red;
+}
+
+.main:hover .con1{
+    transition: all 0.2s;
+    background-color: rgba( 255, 255, 255, 0);
+    transition-delay: 0.7s;
+    
+}
+
+.it{
+    width: 225px;
+    height: 70px;
+    position: absolute;
+    left: 75px;   
+}
+
+.main:hover .it{
+    background-color: blue;
+    transition:all 0.2s;
+    transition-delay: 0.7s;
+}
+
+.icon3{
+    width: 75px;
+    height: 70px;
+    color: rgb(26, 177, 26);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+}
+
+.dele{
+    width: 225px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 150px;
+}
+
+.d1{
+    background-color: rgba(26, 177, 26, 0 );
+    width: 225px;
+    height: 70px;
+    position: absolute;
+    left: 75px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main:hover .d1{
+    background-color: rgb(26, 177, 26);
+    transition: all 0.2s;
+    transition-delay: 1.89s;
+}
+
+.main:hover .dele{
+    top: 0;
+    transition: all 0.2s;
+    transition-delay: 2s;
+}
+
+.main:hover .icon3{
+    top: 0;
+    transition: all 0.2s;
+    transition-delay: 2s;
+}

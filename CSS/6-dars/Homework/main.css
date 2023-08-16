@@ -1,0 +1,103 @@
+.con {
+    border: 1px solid rgba(0, 0, 0, 0.867);
+    padding: 10px 30px;
+    width: 600px;
+}
+
+.container,
+.header,
+.foot,
+.nav,
+.left,
+.center,
+.right,
+.middle,
+.lower {
+    border: 1px solid black;
+}
+
+.mincon {
+    display: flex;
+    gap: 2
+    px;
+    height: 2zpx;
+}
+
+.upper {
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    margin: 1px 5px;
+    justify-content: space-around;
+    flex: 8;
+}
+
+.center,
+.right {
+    flex: 2;
+    text-align: center;
+    margin-bottom: 4px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.middle {
+    margin-bottom: 3px;
+    text-align: center;
+    height: 70px;
+    padding-top: 10px;
+    background-color: rgb(102, 147, 245);
+}
+
+.lower {
+    height: 70px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(255, 118, 14, 0.787);
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    background-color: rgba(5, 5, 5, 0.159);
+}
+
+.left{
+    text-align: center;
+    flex: 1;
+    padding-top: 10px;
+    margin-bottom:4px ;
+    background-color: rgba(78, 76, 76, 0.507);
+}
+.header{
+    background-color: rgba(5, 5, 5, 0.159);
+    font-size: 27px;
+}
+.right{
+    background-color: rgba(5, 5, 5, 0.159);
+}
+.nav{
+    background-color: rgb(252, 206, 174);
+}
+.center{
+    background-color: rgb(253, 61, 61);
+}

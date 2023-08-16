@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@700&family=Yellowtail&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menyu{
+    display: flex;
+}
+.main{
+    width: 1209px;
+    height: 939px;
+    margin-top: 200px;
+    gap: 102px;
+}
+.me{
+    margin-left: 170px;
+    width: 700px;
+    height: 524px;
+    gap:60px;
+}
+.item_1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 50px;
+    color: #7EB693;
+    text-align: center
+}
+.item_2{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+}
+.iimg{
+    margin-top: 70px;
+    margin-left: 289px;
+    border-radius: 50%;
+}
+.stars{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.item_4{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 18px;
+    color: #274C5B;
+}
+.item_5{
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 29px;
+}
+.item_6{
+    text-align: center;
+    color: #525C60;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.item_7{
+    text-align: center;
+    margin-top: 15px;
+}
+.menyu2{
+    margin-top: 90px;
+    width: 880px;
+    margin-left: 60px;
+    height: 250px;
+    border: solid 1px rgba(0, 0, 0, 0.1  );
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.border1{
+    border: 3px solid #7EB693;
+    background-color: white;
+    width: 189px;
+    height: 189px;
+    margin-top: 70px;
+    border-radius: 50%;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.border2{
+    border: 1px solid #F1F1F1;
+    width: 170px;
+    margin: 7px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+}
+.item1{
+   margin-top: 40px;
+   font-size: 50px;
+   line-height: 60px;
+   font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+
+}
+.item2{
+    font-size: 18px;
+    line-height: 30px;
+    color: #274C5B;
+    font-family: 'Open Sans', sans-serif;
+}

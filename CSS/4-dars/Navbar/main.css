@@ -1,0 +1,10 @@
+.navbarmain{
+    border: 1px solid black;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.p1{
+    width: 100%;
+}

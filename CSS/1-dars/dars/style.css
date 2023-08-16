@@ -1,0 +1,13 @@
+
+div{
+    color: rgba( 0, 0, 255, 0.8 );
+    /* text-align: center; */
+    background-image: url(./Снимок\ экрана\ \(1\).png);
+    background-size: contain;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: solid black 1px ;
+    background-position: right;
+}

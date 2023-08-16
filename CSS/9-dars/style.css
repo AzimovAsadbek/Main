@@ -1,0 +1,120 @@
+.main {
+    width: 1100px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    background-color: white;
+    width: 350px;
+    height: 460px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log {
+    font-size: 35px;
+}
+
+.ps {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.pass {
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.hui {
+    width: 325px;
+    height: 39px;
+    color: white;
+    background-color: blue;
+    border: blue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.i {
+    margin-top: 5px;
+}
+
+.or {
+    margin: 0 10px;
+    color: rgb(55, 55, 55);
+}
+
+.h1 {
+    border: 1px solid rgb(165, 165, 165);
+    width: 140px;
+
+}
+
+.menyu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button {
+    padding: 5px 4px;
+    color: white;
+    background-color: midnightblue;
+    border: midnightblue;
+    border-radius: 3px;
+    width: 320px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.fa-1x {
+    margin-right: 50px;
+}
+
+.bt {
+    background-color: white;
+    border: 1px solid rgb(155, 155, 155);
+    color: rgba(0, 0, 0, 0.749);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.fa-google {
+    font-size: 15px;
+    margin-right: 72px;
+    color: blue;
+}
+.sign_up{
+    margin-left: 40px;
+}
+.lg{
+    margin-bottom: 15px;
+}
+
+.in{
+    height: 480px;
+}

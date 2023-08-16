@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border: 1px solid rgb(0, 71, 0);
+    height: 90px;
+    width: 98%;
+    background-color: rgb(0, 52, 0);
+    text-align: center;
+}
+
+.inn {
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.mainnav {
+    display: flex;
+    text-indent: 100px;
+}
+
+.c3 {
+    text-indent: 250px;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.c4 {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.c5 {
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.c6 {
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.c7 {
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.img {
+    display: flex;
+}
+
+.c9 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    padding: 0px 11px;
+}
+
+.ii {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.fii {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.solid {
+    display: flex;
+}
+
+.ee1 {
+    margin-top: 120px;
+    margin-left: -23px;
+}
+
+.hh2 {
+    display: flex;
+    margin-left: 625px;
+    margin-top: -130px;
+    margin-left: 620px;
+}
+
+.g13 {
+    text-align: justify;
+    width: 400px;
+}
+
+.ffffi {
+    margin-top: 100px;
+    margin-left: -920px;
+}
+
+.q2 {
+    margin-left: 195px;
+    margin-top: 20px;
+
+}
+
+.hhello {
+    margin-left: 190px;
+    width: 400px;
+    text-align: justify;
+    display: flex;
+}
+
+.oq {
+    display: flex;
+}
+
+.img4 {
+    display: flex;
+    margin-left: 700px;
+    margin-top: -160px;
+}
+.diiv2{
+    margin-left: 159px;
+}
+.div6{
+    display: flex;
+}
+.eu1{text-align: justify;
+    width: 230px;
+    margin: 15px 30px;
+}
+.div10{
+    margin-left: -90px;
+}
+.z1{
+    margin-left: -116px;
+}
+.z2{
+    margin-left: -159px;
+}
+.z4{
+    margin-left: -151px;
+}

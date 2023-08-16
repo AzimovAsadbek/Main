@@ -1,0 +1,285 @@
+.con{
+    width: 74px;
+    height: 40px;
+    margin: 20px;
+    position: relative;
+}
+
+.contain{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 550px; 
+    background-image: linear-gradient( to right top, rgba(255, 0, 0, 0.702), rgba(0, 0, 255, 0.785) );
+}
+
+.item{
+    width: 70px;
+    border: 3px solid black;
+    position: absolute;
+}
+
+.item2{
+    top: 15px;
+}
+
+.item3{
+    top: 30px;
+}
+
+
+
+.con:hover  .item1{
+    animation: item1 0.6s forwards;
+}
+.con:hover  .item3{
+    animation: item3 0.6s forwards;
+}
+
+@keyframes item1{
+    
+    0%{
+        top: 0;
+    }
+
+
+    100%{
+        top: 15px;
+    
+    }
+}
+
+@keyframes item3{
+    
+    100%{
+        top: 15px;
+    }
+
+}
+
+.con1:hover  .item4{
+    animation: item4 0.6s forwards;
+}
+
+.con1:hover .item5{
+    animation: item5 2s forwards;
+}
+.con1:hover  .item6{
+    animation: item6 0.6s forwards ;
+}
+
+@keyframes item4{
+    
+    0%{
+        top: 0;
+    }
+
+
+    50%{
+        top: 15px;
+    
+    }
+
+    100%{
+        top: 15px;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes item6{
+    
+    50%{
+        top: 15px;
+    }
+    100%{
+        top: 15px;
+
+        transform: rotate(-45deg);
+    }
+
+}
+@keyframes item5{
+    
+    0%{
+        top: 15px;
+        width: 35px;
+        left: 0;
+    }
+
+    50%{
+        top: 15px;
+        width: 2px;
+        left: 35px;
+    }
+    100%{
+       border: none;
+
+    }
+
+}
+    
+
+
+.con1:hover  .item7{
+    animation: item7 0.4s forwards;
+}
+
+.con1:hover .item8{
+    animation: item8 0.36s forwards;
+}
+.con1:hover  .item9{
+    animation: item9 0.4s forwards ;
+}
+
+@keyframes item7{
+    
+    0%{
+        left: 0;
+        top: 0;
+        width: 70px;
+    }
+
+
+    50%{
+        left: 0;
+        top: 0.7px;
+        width: 50px;
+        left: 5px;
+    
+    }
+
+    
+
+    100%{
+        width: 40px;
+        left: 5px;
+        top: 0.7px;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes item9{
+    0%{
+        left: 0;
+        top: 15px;
+        width: 70px;
+    }
+
+
+    50%{
+        left: 4px;
+        width: 50px;
+        top: 30px;
+    }
+    100%{
+        left: 4px;
+        width: 40px;
+        top: 30px;
+        transform: rotate(-45deg);
+    }
+
+}
+@keyframes item8{
+    
+    0%{
+        top: 15px;
+        width: 70px;
+        left: 0;
+    }
+
+   
+    100%{
+        top: 15px;
+        width: 60px;
+        left: -23px;
+    }
+
+}
+
+
+
+.main:hover  .belgi1{
+    animation: belgi1 0.4s forwards;
+}
+
+.main:hover .belgi2{
+    animation: belgi2 0.32s forwards;
+}
+.main:hover  .belgi3{
+    animation: belgi3 0.4s forwards ;
+}
+
+@keyframes belgi1{
+    
+    0%{
+        left: 0;
+        top: 0;
+        width: 70px;
+    }
+
+
+    50%{
+        left: 15px;
+        top: 0;
+        width: 40px;
+        transform: rotate(-45deg);
+    
+    }
+
+    
+
+    100%{
+        left: 15px;
+        top: 0;
+        width: 40px;
+        transform: rotate(-45deg);
+       
+    }
+}
+
+@keyframes belgi3{
+    0%{
+        left: 0;
+        top: 30px;
+        width: 70px;
+    }
+
+
+    50%{
+        
+        left: 15px;
+        top: 30;
+        width: 40px;
+        transform: rotate(45deg);
+     
+    }
+    100%{
+        left: 15px;
+        top: 30;
+        width: 40px;
+        transform: rotate(45deg);
+    }
+
+}
+@keyframes belgi2{
+    
+    0%{
+        top: 15px;
+        width: 70px;
+        left: 0;
+    }
+
+   
+    100%{
+        top: 15px;
+        width: 62.1px;
+        left: 22px;
+    }
+
+}
+
+
+    
+

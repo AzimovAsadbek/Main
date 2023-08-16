@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menyu {
+    width: 1346px;
+}
+
+.img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(5, 2, 31);
+    height: 45px;
+    z-index: 1;
+}
+
+.u1 {
+    margin-left: 10px;
+}
+
+.main1,
+.main2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main1 {
+    flex: 1;
+    position: relative;
+}
+
+
+
+.hover1:hover::before {
+    content: "Title";
+    position: absolute;
+    bottom: 30px;
+    /* left: 30px; */
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 5px;
+}
+
+.hover2:hover::after {
+    content: "Valu";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 170px;
+}
+
+.hover3:hover::after {
+    content: "Company name";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 120px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 270px;
+}
+
+.hover4:hover::after {
+    content: "Picpeline";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 75px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 455px;
+}
+
+.hover5:hover::after {
+    content: "Stage";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 640px;
+}
+
+.hover6:hover::after {
+    content: "Owner first name";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 130px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 750px;
+}
+
+.hover7:hover::after {
+    content: "Owner last name";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 130px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    left: 960px;
+}
+
+
+
+
+.item2 {
+    color: rgba(255, 255, 255, 0.724);
+}
+
+.icon {
+    color: rgba(255, 255, 255, 0.724);
+    background-color: rgb(48, 47, 47);
+    border-radius: 3px;
+}
+
+.item3 {
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.ii {
+    background-color: rgb(48, 47, 47);
+    border: none;
+    outline: none;
+    height: 27px;
+    color: rgba(255, 255, 255, 0.724);
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+
+.menu1 {
+    margin-left: 10px;
+}
+
+.menu3 {
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+button {
+    width: 80px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: white;
+}
+
+.ll {
+    background-color: darkgray;
+    margin-left: -5px;
+}
+
+.menu4 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu5 {
+    background-color: darkgray;
+    height: 40px;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+}
+
+.itm {
+    height: 30px;
+}
+
+
+
+
+.th {
+    padding-left: 15px;
+}
+
+.fix {
+    position: sticky;
+    right: 0px;
+    background-color: white;
+}
+
+.tt {
+    background-color: darkgrey;
+}
+
+
+.hover8:hover::before {
+    content: "Next activity ...";
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    background-color: rgba(204, 204, 204, 0.531);
+    width: 120px;
+    height: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -10px;
+}
+
+.hv1:hover::before {
+    content: "Leads";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 40px;
+}
+
+.hv2:hover::before {
+    content: "Opportunitles";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 103px;
+}
+
+.hv3:hover::before {
+    content: "Actives";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 205px;
+}
+
+.hv4:hover::before {
+    content: "People";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 277px;
+}
+
+.hv5:hover::before {
+    content: "Products";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 340px;
+}
+
+.hv6:hover::before {
+    content: "Reports";
+    position: absolute;
+    top: 35px;
+    font-size: 14px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    color: white;
+    left: 416px;
+}
+
+.item1 {
+    color: whitesmoke;
+
+}
