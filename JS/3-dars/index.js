@@ -1,7 +1,6 @@
 // let a = 2;
 // let x = 1 + (a *= 2)
 // console.log(x);//5
-
 // console.log("" + 1 + 0);// 10
 // console.log("" - 1 + 0);// -1
 // console.log(true + false);// 1
