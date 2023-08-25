@@ -144,7 +144,7 @@
 //   str = "";
 // }
 
-// qaychi
+// Piramidani ikkinchi tomoni
 // let width = 12;
 // let height = 6;
 // let str = "";
