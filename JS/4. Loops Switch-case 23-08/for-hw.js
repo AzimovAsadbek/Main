@@ -143,7 +143,6 @@
 //   console.log(str);
 //   str = "";
 // }
-
 // Piramidani ikkinchi tomoni
 // let width = 12;
 // let height = 6;
@@ -167,3 +166,4 @@
 //   console.log(str);
 //   str = "";
 // }
+
